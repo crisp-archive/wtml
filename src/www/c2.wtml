@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wtml>
+	<manifest>
+		<title>WORD教学系统</title>
+		<legend>在线教学</legend>
+		<author>crisp</author>
+		<build>2010-05-18</build>
+		<version>1.0</version>
+		<logo>/res/logo.jpg</logo>
+		<copyright link="http://gpl.gnu.org">GNU GPL</copyright>
+		<style>res/style.css</style>
+	</manifest>
+	<content>
+		<chapter>
+			<title>第二章：WORD操作</title>
+			<abstract>本章节，我们将介绍WORD的基本操作</abstract>
+			<paragraph type="text">请首先点击“显示控件”，然后新建一个WORD文档，并插入文字“Hello, world！”</paragraph>
+			<paragraph type="object"></paragraph>
+			<paragraph type="button" function="wps_create();">新建文档</paragraph>
+			<paragraph type="button" function="doc_type_text('hello, world!');">插入文字</paragraph>
+			<paragraph type="text">为改变文字的样式，如粗体，我们应该首先选择文本，然后点击“加粗”按钮或使用快捷键CTRL+B。</paragraph>
+			<paragraph type="text">你可以点击加粗键查看效果。</paragraph>
+			<paragraph type="button" function="doc_font_bold(true);">加粗</paragraph>
+			<paragraph type="text">最后，请关闭文档，并进入下一章的学习。</paragraph>
+			<paragraph type="button" function="doc_close();">关闭文档</paragraph>
+			<paragraph type="button" function="redirect('c3.wtml');">进入下一章</paragraph>
+			<end>课后练习：复习以上内容</end>
+		</chapter>
+	</content>
+</wtml>

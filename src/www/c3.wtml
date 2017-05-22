@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wtml>
+	<manifest>
+		<title>WORD教学系统</title>
+		<legend>在线教学</legend>
+		<author>crisp</author>
+		<build>2010-04-21</build>
+		<version>1.0</version>
+		<logo>/res/logo.jpg</logo>
+		<copyright link="http://gpl.gnu.org">GNU GPL</copyright>
+		<style>res/style.css</style>
+	</manifest>
+	<content>
+		<chapter>
+			<title>小测试</title>
+			<abstract>测试WORD水平</abstract>
+			<paragraph type="object"></paragraph>
+			<paragraph type="button" function="wps_create();">新建文档</paragraph>
+			<paragraph type="button" function="doc_type_text('hello, world!');">插入文字</paragraph>
+			<paragraph type="button" function="doc_close();">关闭</paragraph>
+			<paragraph type="text">请进行粗体操作，然后点击“评价”按钮</paragraph>
+			<paragraph type="button" function="check_font_bold();">评价粗体</paragraph>
+			<paragraph type="button" function="check_font_italic();">评价斜体</paragraph>
+			<paragraph type="button" function="check_text_align(TEXT_ALIGN_RIGHT);">评价对齐</paragraph>
+			<paragraph type="button" function="check_font_name('宋体');">评价宋体</paragraph>
+			<paragraph type="button" function="check_font_size(5);">评价字号</paragraph>
+			<paragraph type="button" function="check_font_underline(1);">评价下划线</paragraph>
+			<end></end>
+		</chapter>
+	</content>
+</wtml>

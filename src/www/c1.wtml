@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wtml>
+	<manifest>
+		<title>WORD教学系统</title>
+		<legend>在线教学</legend>
+		<author>crisp</author>
+		<build>2010-05-18</build>
+		<version>1.0</version>
+		<logo>/res/logo.jpg</logo>
+		<copyright link="http://gpl.gnu.org">GNU GPL</copyright>
+		<style>res/style.css</style>
+	</manifest>
+	<content>
+		<chapter>
+			<title>第一章：WORD简介</title>
+			<abstract>本章节，我们将介绍WORD的基本信息</abstract>
+			<paragraph type="text">Microsoft Word是微软公司的一个收费文字处理应用程序，最初在1983年由Richard Brodie为了运行DOS的IBM计算机而编写的，
+			随后的版本可运行于Apple Macintosh（1984年）、SCO UNIX和Microsoft Windows（1989年），并成为了Microsoft Office的一部分。
+			现时最新的版本是Microsoft Word 2010 for Windows及2011 for Mac。</paragraph>
+			<paragraph type="button" function="redirect('c2.wtml');">进入下一章</paragraph>
+			<end>课后练习：复习以上内容</end>
+		</chapter>
+	</content>
+</wtml>
